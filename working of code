@@ -7,4 +7,10 @@ As its name suggests this code is a dummy version of cpp along with graphics. At
 Note-: If user enters any value out of scope of of options(string, special symbols) then, user is told to enter appropriate value. Unless and Until user enters correct choice, program wont proceed.
 
 If '1' is selected -: 
-    User is asked to enter number of  row and column which user wishes to select(for inconvenient inputs, user is asked t enter correct  input). Once ticket is booked successfully, booked ticked is higlighted 
+    User is asked to enter number of  row and column which user wishes to select(for inconvenient inputs, user is asked to enter correct  input). Once ticket is booked successfully, booked ticked is higlighted.
+
+If '2' is selected -:
+    If user selects a seat which is already booked then it is converted to normal(without highlight) and amount of fees paid is refunded. If user selects a seat which is not booked then user is asked to choose seat which is booked.
+
+If '3' is selected -:
+    Execution of code is terminated.
